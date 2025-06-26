@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="../images/logo icon.ico">
+    <link rel="stylesheet" href="../CSS/categories.css">
+    <title>Categories</title>
+</head>
+<body>
+
+<script src="../JS/categories.js"></script>
+
+<div class="side-menu">
+    <div class="topic-div">
+        <img src="../images/cat.png" class="cat">
+ <h2 class="topic">Categories</h2>
+
+    </div>
+        <ul>
+            <button class="btn1" onclick="showGrid('grid1')">
+              <li>Pharmaceuticals</li>
+            </button><br>
+            <button class="btn1" onclick="showGrid('grid2')">
+              <li>Baby Care</li>
+            </button>
+            <li>Diabetes Management</li>
+            <li>Heart and Blood pressure</li>
+            <li>Allergy Relief</li>
+            <li>Vitamins and Supplements</li>
+            <li>Pet Care</li>
+            <li>Pain and Inflammation</li>
+            <li>Digestive Health</li>
+        </ul>
+</div>
+
+<div class="main-content">   
+    <h1 class="topic2">Our Products</h1>
+    <div id="grid1" class=" content active grid1"> 
+        <div class="product">
+            <img src="../images/Diclofenac.png">
+            <h3>Diclofenac&reg; 50mg(50 tablets)</h3>
+            <label for="quantity">Quantity:</label>
+            <select id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <p>
+                <span class="old-price">Rs. 1400</span> 
+                <span class="new-price">Rs. 1210</span> 
+            </p>
+            <button class="add">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/Cetirizine.png">
+            <h3>Cetirizine&reg; 10mg(30 tablets)</h3>
+            <label for="quantity">Quantity:</label>
+            <select id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <p>
+                <span class="old-price">Rs. 2500</span> 
+                <span class="new-price">Rs. 2200</span> 
+            </p>
+           <button class="add">Add to Cart</button>
+        </div>
+    <div class="product">
+        <img src="../images/sustagen2.png">
+        <h3>Sustagen 400g(chocolate)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.5360</p>
+       <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/cipro.png">
+        <h3>Ciprofloaxin&reg; 500mg(20 tablets)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p> Rs.3200</p>  
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/metfor.png">
+        <h3>Metformin&reg; 500mg</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.2200</p>
+       <button class="add">Add to Cart</button>
+    </div>
+   
+    <div class="product">
+        <img src="../images/ibup.jpg">
+        <h3>Ibuprofen&reg; 200mg(20 tablets)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.2800</p>
+       <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/Aspirin.png">
+        <h3>Aspirin&reg; (100 tablets)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>
+            <span class="old-price">Rs. 3100</span> 
+            <span class="new-price">Rs. 2850</span> 
+        </p>
+       <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/sustagen1.png">
+        <h3>Sustagen 400g(Vanilla)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.5250</p>
+       <button class="add">Add to Cart</button>
+    </div>
+    
+    <div class="product">
+        <img src="../images/Diabetasol.png">
+        <h3>Diabetasol 180g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.2500</p>
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/ginsomin.png">
+        <h3>Ginsomin 3×10</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.3460</p>
+       <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/pain1.webp">
+        <h3>Bengay&reg; 57g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.4400</p>
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/testkit.png">
+        <h3>AccuQuick Test Kit</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <p>Rs.7400</p>
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/neosporin.png">
+        <h3>Neosporin&reg; 28.3g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.1980</p>
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/strepto1.png">
+        <h3>StreptoCare Injection 1g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>Rs.1500</p>
+        <button class="add">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="../images/strepto2.webp">
+        <h3>StreptoCare Injection 7ml</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>
+        <span class="old-price">Rs. 2500</span> 
+        <span class="new-price">Rs. 2300</span> 
+        </p>
+        <button class="add">Add to Cart</button>
+       </div>
+    
+</div>
+
+<div id="grid2" class="content grid2">
+    <div class="product">
+        <img src="../images/huggies1.png">
+        <h3>Huggies&reg; 3kg(21 pack)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>
+        <span class="old-price">Rs. 3600</span> 
+        <span class="new-price">Rs. 3100</span> 
+        </p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/sustagen3.png">
+        <h3>Sustagen Kids 190g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.3300</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/gift.jpg">
+        <h3>Himalaya&trade; Gift Pack</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.3250</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babycream3.webp">
+        <h3>Baby Cheramy&trade;Floral Baby Cream</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.850</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/pampas.png">
+        <h3>Pampas&reg;Baby-dry(20 diapers)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.4700</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babycream4.webp">
+        <h3>Baby Cheramy&trade;Baby Cream</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.550</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babypana.jpg">
+        <h3>Panadol&trade;Baby 100ml</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.1150</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/huggies2.png">
+        <h3>Huggies&reg;Classic (5 pack)</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p>
+        <span class="old-price">Rs. 2100</span> 
+        <span class="new-price">Rs. 1870</span> 
+        </p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babysoap1.png">
+        <h3>Panda Baby&trade;Baby Soap 75g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.350</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babysoap2.webp">
+        <h3>Baby Cheramy&trade;Baby Soap 90g</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.250</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       <div class="product">
+        <img src="../images/babycream2.jpeg">
+        <h3>Pears&reg;Baby cream 200ml</h3>
+        <label for="quantity">Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+       <p>Rs.270</p>
+        <button class="add">Add to Cart</button>
+       </div>
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,256 @@
+/*header start*/
+.logo{
+    position: absolute;
+    width: 100px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.prescription {
+    width: 50px;
+}
+
+.cart {
+    width: 45px;
+}
+
+.list1 {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 520px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.list1.items li{
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Source Sans Pro', 'Roboto', 'Open Sans', sans-serif;
+    display: inline;
+    padding: 6px 25px 6px;
+}
+
+.list1.items li:hover{
+    cursor: pointer;
+    background-color: rgba(114, 111, 111, 0.292);
+    border-radius: 10px;
+    transition: 0.75s;
+}
+
+.list2 {
+    width: 400px;
+    display: flex;
+    list-style: none;
+    margin-left: 1110px;
+}
+
+.list2.items li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.login_btn, .upld_btn, .search_btn {
+    height: 40px;
+    font-family: 'Source Sans Pro', 'Roboto', 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+.login_btn{
+    width: 125px;
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+
+}
+
+.login_btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.upld_btn{
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+
+.upld_btn:hover{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    border-color: white;
+}
+
+.search_btn {
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.search_btn:hover {
+    background-color: rgb(123, 200, 252);
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    border: rgb(123, 200, 252);
+}
+
+.search_bar {
+    width: 375px;
+    height: 35px;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 40px;
+}
+
+.search_bar::placeholder {
+    padding-left: 20px;
+    font-size: 15px;
+}
+/*header end*/
+
+/*footer start*/
+.footer{
+    background-color: black;
+    width: 110vw;
+    height: 170px;
+    margin-left: -30px;
+    margin-top: 280px;
+}
+
+.ftrcontent {
+    width: 200px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin-top: -115px;
+    line-height: 15px;
+}
+
+.para{
+    width: 160px;
+    margin-left: 80px;
+}
+
+.ftrlogo{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.para p{
+    color: white;
+    font-size: 12.5px;
+    line-height: 12px;
+    text-align: justify;
+}
+.link1 {
+    margin-left: 350px;
+}
+
+.link2 {
+    margin-left: 650px
+}
+
+.link3 {
+    width: 250px;
+    margin-left: 950px;
+}   
+
+.media {
+    width: 200px;
+    margin-top: -70px;
+    margin-left: 1250px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12.5px;
+}
+
+.mediaImage{
+    width: 200px;
+}
+/*footer end*/
+
+body {
+    font-family:  'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.main-container {
+    margin-left: 450px;
+    width: fit-content;
+    border: 1px black solid;
+    padding-bottom: 30px;
+}
+.form-div {
+    margin-top: 30px;    
+    margin-left: 90px;
+    background-color: lightgrey;
+    padding: 30px 50px;
+    width: fit-content;
+    border-radius: 30px;
+    
+}
+
+.image1 {
+    width: 650px;
+    height: 400px;
+}
+
+input {
+    padding: 4px 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    width: 160px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+input::placeholder {
+    font-weight: 500;
+    font-size: 17px;
+}
+select  {
+    padding: 2.5px 10px;
+    font-size: 17px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.sendbtn {
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: bisque;
+    cursor: pointer;
+
+}
+.btn-set {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.long {
+    width: 250px;
+}
+
+.sendbtn:hover {
+    background-color: rgb(238, 154, 50);
+    transform: scale(1.05);
+    color: aliceblue;
+    font-weight: 600;
+}
