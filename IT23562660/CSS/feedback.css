@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(135deg, #ffffff, #f5f5f5, #eaeaea);
+
+  background-size: cover; 
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+
+
+.bubble-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card1, .card2 {
+   
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 40%; 
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .bubble1 {
+    position: relative;
+    padding: 10px 50px;
+    background-color: rgb(20, 145, 26);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -100px !important;
+   
+  }
+
+  .bubble2 {
+    position: relative;
+    padding: 10px 30px;
+    background-color: rgb(20, 145, 26);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -370px;
+   
+  }
+
+  .p2 {
+    margin-left: -370px !important;
+  }
+
+  .bubble1::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 110px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 20px solid rgb(20, 145, 26); 
+  }
+
+  .bubble2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 260px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 20px solid rgb(20, 145, 26); 
+  }
+  
+  .bubble1 span, .bubble2 span {
+    position: relative;
+    display: inline-block;
+    color: white; 
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .heading {
+    font-size: 30px;
+  }
+
+.card3 {
+  background: linear-gradient(135deg, #a3a3a3, #cfcfcf);
+  width: fit-content;
+  padding: 20px 30px;
+  margin-left: 60px;
+  margin-top: -90px;
+  border-radius: 30px;
+}
+.button-set {
+  margin-top: 30px;
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.line {
+  width: 17px;
+  height: 3px;
+  background-color: black;
+  
+}
+
+.card4 {
+  background: linear-gradient(135deg, #a3a3a3, #cfcfcf);
+  width: fit-content;
+  height: fit-content;
+  margin-left: 820px;
+  margin-top: -270px;
+  padding: 30px 70px;
+  border-radius: 20px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+select {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 8px 5px;
+  width: 250px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.exp {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.star {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+
+}
+
+.area {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.area::placeholder {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.btn-container {
+  margin-top: 30px;
+
+}
+
+.btn2 {
+  background-color: rgb(233, 224, 224);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn3 {
+  background-color: rgb(20, 125, 211);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mainContainer {
+  padding-top: -10px;
+  padding-bottom: 0;
+  margin-left: 30px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="../images/logo icon.ico">
+    <link rel="stylesheet" href="../CSS/feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+
+<center>
+<h3 class="heading"> Help Center</h3>
+</center>
+
+<div class="bubble-container">
+    <div class="card1">
+        <div class="bubble1">
+            <span>FAQ</span>
+        </div>
+        <p>"Got Questions? We've Got Answers!"</p>
+    </div>
+
+    <div class="card2">
+        <div class="bubble2">
+            <span>Customer Feedback</span>
+        </div>
+        <p class="p2">"We Value Your Opinion: Share It Here"</p>
+    </div>
+</div>
+
+<div class="box-container">
+     <div class="card3">
+            <div class="paragraph" id="para1" >
+                <p>What services does your pharmacy portal offer</p>
+                <p>How can i reset my password</p>
+                <p>How can i submit a prescription</p>
+                <p>can i transfer my prescription form the another pharmacy</p>
+                <p>How do i request a refund</p>
+                
+            </div>
+            <div class="paragraph-hidden" id="para2" style="display: none;">
+                <p>What services does your pharmacy portal offer</p>
+                <p>How do I update my shipping address in my account?</p>
+                <p>How do I update my personal information on  the  portal?</p>
+                <p>What is the process for checking my medication status?</p>
+                <p>How do i request a refund</p>
+              
+            </div>
+            <div class="paragraph-hidden2" id="para3" style="display: none;">
+                <p>What services does your pharmacy portal offer?</p>
+                <p>How do I update my shipping address in my account?</p>
+                <p>What are generic medications, and are they safe?</p>
+                <p>can i transfer my prescription form the another pharmacy</p>
+                <p>What is the policy on health insurance?</p>
+                <p></p>
+            </div>
+        <div class="button-set">
+          <button class="btn" onclick="showParagraph(1)">1</button>
+          <div class="line"></div>
+          <button class="btn" onclick="showParagraph(2)">2</button>
+          <div class="line"></div>
+          <button class="btn" onclick="showParagraph(3)">3</button>
+        </div>
+     </div>
+</div>
+<script src="../JavaScript/feedback.js"></script>
+
+
+
+
+   <div class="card4">
+    <form action="" method="post">
+     <!--main container for all input-->
+     <div class="mainContainer">
+
+      <label>Feedback Type</label><br>
+          <select placeholder="Choose Type" class="choose" name="choose">
+                <option value="" disabled selected>-Choose Type-</option>
+                <option>Product Feedback</option>
+                <option>Service Feedback</option>
+                <option>Website Experience</option>
+                <option>Order Process</option>
+                <option>Prescription Submission</option>
+                <option>Delivery Experience</option>
+
+         </select><br>
+
+       <span class="exp"> How Was Your Experience</span>
+
+       <div class="rating">
+          <img  class="star" src="../images/star.png">
+          <img class="star" src="../images/star.png">
+          <img class="star" src="../images/star.png">
+          <img class="star" src="../images/star.png">
+          <img class="star" src="../images/star.png">
+       </div>
+      
+       <label>Message</label><br>
+       <textarea  id="feedback" class="area" rows="3" cols="28" placeholder="Your Message..."></textarea><br>
+
+       <div class="btn-container">
+         <button class="btn2">Send Screenshot</button>
+         <button type="button" onclick="submitFeedback()" class="btn3">Send Feedback</button>
+       </div>
+
+     </div>
+
+    </form>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

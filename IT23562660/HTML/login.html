@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="shortcut icon" type="x-icon" href="../images/logo icon.ico">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../CSS/login.css">
+            <title>Login Page</title>
+        </head>
+
+        <body>
+            
+        <form action="">
+            <!--headings-->
+        <div class="mainContainer">
+            <div class="user-icon-div"> <!--div to get the user icon in one line-->
+                <img src="../images/user.png" alt="Icon" class="user-icon">
+                <h2 class="login-text">Login</h2>
+            </div>
+            <!--main container for all inputs-->
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <!--sub container for the checkbox,forgot pass, create account -->
+            <div class="subContainer">
+
+                <label>
+                    <input type="checkbox" name="remember">Remember me
+                </label>
+
+                <p class="forgotpswrd"> <a href="#">Forgot Password?</a></p>
+            </div>
+
+            <!-- signup link -->     
+            <p class="register">Don't Have an Account? <a href="#">Create one</a></p> 
+            
+            <!--Submit button-->
+            <button type="submit">Login</button>
+
+            </div>
+
+
+        </form>
+
+
+        </body>
+        </html>
