@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+}
+
+.image-half {
+    flex: 1;
+    background: url('../images/pharmback.jpg') no-repeat center center;
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+ 
+}
+
+.gradient-half {
+    flex: 1;
+    background: linear-gradient(135deg, #FF7E5F, #feb47b);
+    clip-path: polygon(10% 0, 5% 15%, 10% 30%, 5% 45%, 10% 60%, 5% 75%, 10% 90%, 100%)
+    
+}
+.about-img {
+    width: 100px;
+    height: 100px;
+}
+
+.about-img {
+     margin-left: 220px;
+     width: 80px;
+     height: 80px;
+}
+
+.para-div {
+ 
+    font-size: 17px;
+    font-weight: 600;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 35px;
+    background-color: aliceblue;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.read {
+    padding: 10px 10px;
+    background-color: lightskyblue;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.links-div {
+    display: flex; 
+    align-items: center; 
+}
+
+.links {
+    margin: 0 10px; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+}
+
+.linksi {
+    margin: 0 10px; 
+    width: 55px; 
+    height: 55px; 
+    cursor: pointer; 
+}
+
+.item {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.visit {
+    width: 55px; 
+    height: 55px; 
+}
+
+.follow {
+    font-size: 25px;
+    font-weight: 900;
+    position: fixed;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+
+.links-div img {
+    transition: transform 0.2s; 
+}
+
+.links-div img:hover {
+    transform: scale(1.1); 
+}
+.form-container {
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+.form-head {
+    font-weight: 700;
+    font-size: 20px;
+}
+.forms {
+    border: solid 2px black;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+.butn {
+    padding: 7px;
+    background-color: rgb(70, 70, 187);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+input {
+    border-radius: 10px;
+
+}
+
+textarea {
+    border-radius: 10px;
+}
