@@ -9,4 +9,4 @@ categories
 ![IMG-20250627-WA0036](https://github.com/user-attachments/assets/79959177-f466-4727-a7ae-c0da31cc7e77)
 about us
 ![IMG-20250627-WA0026](https://github.com/user-attachments/assets/d5327d80-b24e-43a8-9fb7-af15a27f1f67)
-![IMG-20250627-WA0025](https://github.com/user-attachments/assets/20442d5e-1f73-4f44-a12e-1f5f503abf25)
+![IMG-20250627-WA0025](https://github.com/user-attachments/assets/f6fdf683-bb79-4afd-bfcf-ac0a3ff5ae0a)
